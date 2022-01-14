@@ -1,0 +1,9 @@
+<!doctype html>
+<html>
+  <head><title>Home</title></head>
+  <body>
+    <h2>Uploaded Picture</h2><br>
+    <image src="{{url_for('static',filename=user_image)}}" width="400" height="500"><br>
+    <h3>{{prediction_text}}</h3>
+  <body>
+</html>
